@@ -1,0 +1,67 @@
+<div class="subtes-detail hidden bg-slate-800/80 rounded-2xl border border-slate-700 p-6" id="subtes-pu">
+<div class="flex justify-between items-start mb-4">
+<span class="px-3 py-1 text-xs font-semibold rounded-md bg-sky-950 text-sky-300 border border-sky-800">TPS • Penalaran Umum</span>
+<span class="text-xs text-slate-400">Topik: Penalaran Logis, Induktif, &amp; Deduktif</span>
+</div>
+<h3 class="font-bold text-2xl text-white mb-3">Latihan Soal Penalaran Umum UTBK 2026</h3>
+<p class="text-slate-300 text-sm mb-6 leading-relaxed">
+          Subtes Penalaran Umum menguji kemampuan bernalar secara kritis, logis, dan analitis. Selesaikan 5 latihan soal di bawah ini:
+        </p>
+<div class="space-y-6 max-w-3xl">
+<!-- Soal 1 -->
+<div class="p-4 bg-slate-900/60 rounded-xl border border-slate-700">
+<p class="font-semibold text-white mb-3">1. Premis 1: Semua siswa yang rajin belajar akan lulus UTBK.<br/>Premis 2: Andi tidak lulus UTBK.<br/>Kesimpulan yang paling tepat adalah...</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Menggunakan Modus Tollens, kesimpulannya adalah negasi dari p.')" type="button">A. Andi rajin belajar</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, true, 'Benar! Modus Tollens: Jika P → Q, dan ~Q, maka ~P (Andi tidak rajin belajar).')" type="button">B. Andi tidak rajin belajar</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Kesimpulan pasti dapat ditarik dengan logika modus tollens.')" type="button">C. Andi belajar saat ujian saja</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Kesimpulan pasti bisa ditarik.')" type="button">D. Tidak dapat ditarik kesimpulan</button>
+</div>
+<p class="feedback-text text-xs mt-3 hidden font-medium"></p>
+</div>
+<!-- Soal 2 -->
+<div class="p-4 bg-slate-900/60 rounded-xl border border-slate-700">
+<p class="font-semibold text-white mb-3">2. Jika hujan deras turun, maka debit air sungai akan meningkat. Jika debit air sungai meningkat, maka pemukiman warga tergenang banjir. Hari ini pemukiman warga tidak tergenang banjir. Kesimpulan yang sah adalah...</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, true, 'Benar! Silogisme &amp; Modus Tollens: P → Q → R. Karena ~R, maka ~P (Hujan deras tidak turun).')" type="button">A. Hujan deras tidak turun</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Debit air sungai pasti tidak meningkat karena banjir tidak terjadi.')" type="button">B. Debit air sungai meningkat</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Hujan deras pasti tidak turun.')" type="button">C. Hujan turun tetapi tidak deras</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Kesimpulan sangat jelas dapat ditentukan.')" type="button">D. Terjadi banjir di pemukiman lain</button>
+</div>
+<p class="feedback-text text-xs mt-3 hidden font-medium"></p>
+</div>
+<!-- Soal 3 -->
+<div class="p-4 bg-slate-900/60 rounded-xl border border-slate-700">
+<p class="font-semibold text-white mb-3">3. Semua pohon di hutan memproduksi oksigen. Beberapa pohon di hutan berbuah manis. Manakah kesimpulan yang benar?</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Pohon yang tidak berbuah manis tetap memproduksi oksigen.')" type="button">A. Semua pohon yang memproduksi oksigen berbuah manis</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, true, 'Benar! Sebagian pohon berbuah manis adalah bagian dari semua pohon yang memproduksi oksigen.')" type="button">B. Beberapa pohon yang memproduksi oksigen berbuah manis</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Kontradiksi dengan premis pertama.')" type="button">C. Pohon yang tidak berbuah manis tidak memproduksi oksigen</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Informasi tersebut tidak didukung premis.')" type="button">D. Semua pohon di hutan tidak berbuah manis</button>
+</div>
+<p class="feedback-text text-xs mt-3 hidden font-medium"></p>
+</div>
+<!-- Soal 4 -->
+<div class="p-4 bg-slate-900/60 rounded-xl border border-slate-700">
+<p class="font-semibold text-white mb-3">4. Perhatikan pola angka berikut: 2, 5, 10, 17, 26, ... Berapakah angka berikutnya?</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Perhatikan beda antar suku: +3, +5, +7, +9, dst.')" type="button">A. 35</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, true, 'Benar! Pola penambahan bertingkat (+3, +5, +7, +9, +11). Maka 26 + 11 = 37.')" type="button">B. 37</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Hitung selisih penambahan angka secara cermat.')" type="button">C. 36</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Tambahkan 11 ke angka terakhir.')" type="button">D. 38</button>
+</div>
+<p class="feedback-text text-xs mt-3 hidden font-medium"></p>
+</div>
+<!-- Soal 5 -->
+<div class="p-4 bg-slate-900/60 rounded-xl border border-slate-700">
+<p class="font-semibold text-white mb-3">5. Semua atlet berstamina tinggi. Sebagian mahasiswa adalah atlet. Kesimpulan yang tepat adalah...</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, true, 'Benar! Mahasiswa yang merupakan atlet otomatis berstamina tinggi.')" type="button">A. Sebagian mahasiswa berstamina tinggi</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Hanya sebagian mahasiswa yang atlet.')" type="button">B. Semua mahasiswa berstamina tinggi</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Semua atlet dipastikan berstamina tinggi.')" type="button">C. Sebagian atlet tidak berstamina tinggi</button>
+<button class="py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-left transition" onclick="cekJawaban(this, false, 'Salah! Mahasiswa atlet berstamina tinggi.')" type="button">D. Semua mahasiswa adalah atlet</button>
+</div>
+<p class="feedback-text text-xs mt-3 hidden font-medium"></p>
+</div>
+</div>
+</div>
